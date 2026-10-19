@@ -1,0 +1,24 @@
+{
+  "seo_title": "Window taskbar strip for macOS",
+  "seo_description": "A free, open-source macOS taskbar strip that lists every open window as a button. Click to raise, click again to minimize. Native, offline, no telemetry.",
+  "hero_title_line1": "Every window,",
+  "hero_title_accent": "one click away.",
+  "hero_sub": "A slim strip at the edge of your screen lists each open window with its icon and title. Click a button to raise that window, click it again to minimize. It sits beside your Dock.",
+  "features_title": "See everything you have open.",
+  "features_sub": "A lightweight take on the Windows-style taskbar that works alongside the Dock instead of replacing it.",
+  "features": [
+    {"icon": "window", "title": "One button per window", "desc": "Each button shows the app icon and window title, grouped by app. Click to raise, click the frontmost window again to minimize, or middle-click to close."},
+    {"icon": "display", "title": "Any edge, any display", "desc": "Dock the strip at the bottom, top, left or right. Vertical edges switch to icon-only buttons, and you can show a strip on every screen."},
+    {"icon": "eye", "title": "Clear window state", "desc": "The frontmost window is highlighted with the accent color, and minimized or hidden windows are dimmed. A button shakes if an app is hung."},
+    {"icon": "sliders", "title": "Configurable in Settings", "desc": "Set thickness, button width, titles, clock, auto-hide and launch at login. Exclude apps you do not want listed."},
+    {"icon": "cursor", "title": "Auto-hide and stay out of the way", "desc": "The strip can slide in when the pointer touches its edge. It never takes keyboard focus, follows you across Spaces and hides during full-screen windows."},
+    {"icon": "bolt", "title": "Native and responsive", "desc": "Built with SwiftUI and AppKit. It updates through Accessibility observers and workspace notifications, with a 0.5 second refresh as a fallback."}
+  ],
+  "permissions_step": "Grant Accessibility access when prompted, under System Settings > Privacy & Security > Accessibility, so the strip can list and control individual windows.",
+  "faq": [
+    {"q": "Is WindowTaskbarStrip really free and open source?", "a": "Yes. It is released under the MIT license, with no accounts, no ads and no telemetry. The source is on GitHub, and an optional Support button links to Ko-fi if you want to contribute."},
+    {"q": "What permissions does it need?", "a": "Only Accessibility, which is used to read window lists, titles and minimized state, and to raise, minimize and close windows. Without it, the strip still runs but lists running apps instead of individual windows. It does not request Screen Recording, Microphone, Camera or network access."},
+    {"q": "Where is my data stored?", "a": "Nothing leaves your Mac, because the app makes no network connections. Your settings are saved locally in the app's standard macOS preferences."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to launch it, or build it from source with Xcode and XcodeGen."}
+  ]
+}

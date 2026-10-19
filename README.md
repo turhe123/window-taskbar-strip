@@ -1,5 +1,7 @@
 # WindowTaskbarStrip
 
+**🌐 Website:** [turhe123.github.io/window-taskbar-strip](https://turhe123.github.io/window-taskbar-strip/)
+
 A slim always-visible taskbar strip listing every open window as a button you click to raise or minimize.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -31,7 +33,21 @@ WindowTaskbarStrip is a free, open-source, 100% native, backend-free alternative
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-strip.png" alt="Horizontal taskbar strip with app buttons and a clock" width="720"></p>
+
+<p align="center"><em>The taskbar strip docked at the bottom of the screen, with one button per app, a permission shortcut, and a clock.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="WindowTaskbarStrip Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the strip&#x27;s edge, thickness, button width, titles, clock, auto-hide, multiple displays, launch at login, and excluded apps.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-menu.png" alt="WindowTaskbarStrip menu bar menu" width="560"></p>
+
+<p align="center"><em>The menu bar item: show or hide the strip, change its edge, toggle auto-hide, open Settings, or donate.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-vertical-strip.png" alt="Vertical icon-only taskbar strip on the left edge" width="560"></p>
+
+<p align="center"><em>Docked on the left edge, the strip switches to icon-only buttons and highlights the frontmost app.</em></p>
 
 ## Install
 

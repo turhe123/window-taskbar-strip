@@ -1,0 +1,6 @@
+[
+  {"file":"01-strip.png","caption":"The taskbar strip docked at the bottom of the screen, with one button per app, a permission shortcut, and a clock.","alt":"Horizontal taskbar strip with app buttons and a clock"},
+  {"file":"02-settings.png","caption":"Settings for the strip's edge, thickness, button width, titles, clock, auto-hide, multiple displays, launch at login, and excluded apps.","alt":"WindowTaskbarStrip Settings window"},
+  {"file":"03-menu.png","caption":"The menu bar item: show or hide the strip, change its edge, toggle auto-hide, open Settings, or donate.","alt":"WindowTaskbarStrip menu bar menu"},
+  {"file":"04-vertical-strip.png","caption":"Docked on the left edge, the strip switches to icon-only buttons and highlights the frontmost app.","alt":"Vertical icon-only taskbar strip on the left edge"}
+]
